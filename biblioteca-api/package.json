@@ -1,0 +1,32 @@
+{
+  "name": "biblioteca-api",
+  "version": "1.0.0",
+  "description": "API Web Biblioteca - Entidade Livro (Controller/Repository, CRUD, TypeORM/SQLite)",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [
+    "express",
+    "typeorm",
+    "sqlite",
+    "biblioteca",
+    "livro",
+    "crud"
+  ],
+  "author": "MARIA AUGUSTA KLEY AGUIAR FIALHO TADS044",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.1.6",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
